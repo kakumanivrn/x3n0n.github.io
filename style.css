@@ -1,0 +1,11 @@
+.container {
+	margin-top: 30px;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+textarea {
+	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Handy Tools for Hackers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="container" id="header">
+			<img src="hacker.png" width="500px" />
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="form-group">
+						<label for="string">Paste or enter the text below</label>
+						<textarea class="form-control" id="string" rows="10"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="decodeb64()">Decode Base64</button>
+				</div>
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="encodeb64()">Encode Base64</button>
+				</div>
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="decodeurl()">Decode URL</button>
+				</div>
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="encodeurl()">Encode URL</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="decodejwt()">Decode JWT</button>
+				</div>
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="prettyjson()">Pretty JSON</button>
+				</div>
+				<div class="col-3">
+					<button type="button" class="btn btn-primary" onclick="browsejson()">JSON Tree</button>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
